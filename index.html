@@ -201,7 +201,12 @@
           <div class="span6 offset3 order">
             <!-- Standard Bootstrap button. -->
             <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
-            <button class="btn btn-success btn-large">Preorder</button>
+            <a class="coinbase-button"
+               data-button-style="custom_large"
+               data-button-text="Preorder with Bitcoin" 
+               data-code="ec208d467da7c2c8651eda50daca213e" 
+               href="https://coinbase.com/checkouts/ec208d467da7c2c8651eda50daca213e">Preorder with Bitcoin</a>
+               <script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
           </div>
           <div class="span8 offset2 social">
             <!-- Social buttons are not included in default Bootstrap. -->
@@ -327,7 +332,7 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-43081797-1', 'bitstarter.net');
+  ga('create', 'UA-43081797-1', 'herokuapp.com');
   ga('send', 'pageview');
 
 </script>
